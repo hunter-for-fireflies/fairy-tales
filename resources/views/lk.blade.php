@@ -1,12 +1,8 @@
-<HTML>
-<head>
-	<title> Профиль </title>
-	<link rel="stylesheet"  type="text/css" href="style/style.css">
-	<div class="head">
-		<div class="menu"></div>
-		<div class="home"></div>
-		<div class="search"></div>
-	</div>
+@extends('layouts.header')
+	@section('title')
+		<title> Профиль </title>
+	@endsection()	
+@section('content')
 </head>
 <body bgcolor='#f6fcf6'>
 	<div class="avatar0">
@@ -21,7 +17,7 @@
 		<div class="center1">СТАТЬИ</div>
 		<div class="right1">ПОЭЗИЯ</div>
 	</div>
-	<div id="footer"> © Татьяна Лерман</div>
+	@section('footer')
+		<div id="footer"> © Татьяна Лерман</div>
 </body>
-<footer></footer>
 </HTML>

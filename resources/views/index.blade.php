@@ -1,13 +1,9 @@
-<HTML>
-<head>
-	<title> Сказки </title>
-	<link rel="stylesheet"  type="text/css" href="style/style.css">
-	<div class="head">
-		<div class="menu"></div>
-		<div class="home"></div>
-		<div class="search"></div>
-	</div>
-</head>
+@extends('layouts.header')
+	@section('title')
+		<title> Сказки </title>
+	@endsection()	
+@section('content')
+
 <body>
 	<style>
 	body { background: url('style/IMG_2992.jpg'); } 
@@ -19,7 +15,7 @@
 		<div class="center"><a href="/text">СТАТЬИ</a></div>
 		<div class="right"><a href="/text">ПОЭЗИЯ</a></div>
 	</div>
-	<div id="footer"> © Татьяна Лерман</div>
+	@section('footer')
+		<div id="footer"> © Татьяна Лерман</div>
 </body>
-<footer></footer>
 </HTML>
