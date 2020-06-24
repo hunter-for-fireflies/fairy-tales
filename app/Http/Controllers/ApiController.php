@@ -21,4 +21,18 @@ class ApiController extends Controller
     return view('lk');
 	}
 	
+	public function content_proseAction()
+	{
+    return view('content_prose');
+	}
+	
+	public function content_articlesAction()
+	{
+    return view('content_articles');
+	}
+	
+	public function content_poetryAction()
+	{
+    return view('content_poetry');
+	}
 }

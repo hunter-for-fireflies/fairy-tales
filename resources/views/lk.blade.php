@@ -13,11 +13,10 @@
 	<div class="name"></div>
 	<div class="thoughts1"></div>
 	<div class="sections">
-		<div class="left1">ПРОЗА</div>
-		<div class="center1">СТАТЬИ</div>
-		<div class="right1">ПОЭЗИЯ</div>
+		<div class="left1"><a href="/content_prose">ПРОЗА</a></div>
+		<div class="center1"><a href="/content_articles">СТАТЬИ</a></div>
+		<div class="right1"><a href="/content_poetry">ПОЭЗИЯ</a></div>
 	</div>
 	@section('footer')
-		<div id="footer"> © Татьяна Лерман</div>
 </body>
 </HTML>

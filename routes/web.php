@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'ApiController@indexAction');
 Route::get('/text', 'ApiController@textAction');
 Route::get('/lk', 'ApiController@lkAction');
+Route::get('content_prose', 'ApiController@content_proseAction');
+Route::get('content_articles', 'ApiController@content_articlesAction');
+Route::get('content_poetry', 'ApiController@content_poetryAction');
