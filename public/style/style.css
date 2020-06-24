@@ -53,6 +53,16 @@ button {
 	margin-top: 5px;
 	margin-right: 10px;
 }
+.auth{
+	background: #d5dad399;
+	width: 300px;
+	height: 100px;
+	float: right;
+	margin-top: 100px;
+	margin-right: 0px;
+}
+
+
 #footer{
 	position: fixed;
 	left:0; bottom:0;
@@ -60,6 +70,34 @@ button {
 	height: 30px;
 	background: #020401bf;
 	color : #d5dad3
+}
+
+/*регистрация и авторизация*/
+#subscribe,
+#login{
+    position: absolute;
+    top: 0px;
+    width: 88%;
+    padding: 18px 6% 60px 6%;
+    margin: 0 0 35px 0;
+    background: rgb(247, 247, 247);
+    border: 1px solid rgba(147, 184, 189,0.8);
+    box-shadow:
+        0pt 2px 5px rgba(105, 108, 109,  0.7),
+        0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    border-radius: 5px;
+}
+#login{
+    z-index: 22;
+}
+#wrapper h1{
+    font-size: 48px;
+    color: rgb(6, 106, 117);
+    padding: 2px 0 10px 0;
+    font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 /*титульная*/

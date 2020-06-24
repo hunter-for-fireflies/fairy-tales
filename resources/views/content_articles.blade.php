@@ -8,7 +8,9 @@
 	<div class="title">Содержание раздела</div>	
 
 	@extends('layouts.fon')
-		<div class="con">Содержание раздела</div>
+		@foreach($content_articles as $content_articles)
+			<div class="con"></div>
+		@endforeach
 	@section('footer')
 </body>
 </HTML>

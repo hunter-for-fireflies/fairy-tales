@@ -6,7 +6,7 @@
 	<div class="head">
 		<div class="menu"><img src="style/menu.png" /></div>
 		<div class="home"><a href="/"><img src="style/home.png" /></a></div>
-		<form>
+		<form method="get" action="/search" id="search_form">
 		  <input type="text" placeholder="Искать здесь...">
 		  <button type="submit"></button>
 		</form>
@@ -26,6 +26,7 @@
 				<li><a href="/content_poetry">ПОЭЗИЯ</a>
 				<li><a href="/lk">ПРОФИЛЬ</a>
 			</ul>
+			<div class="auth"><a href="/auth">АВТОРИЗАЦИЯ / РЕГИСТРАЦИЯ</a></div>
 		</nav>
 	<div class="mask-content"></div>
 	
